@@ -166,6 +166,10 @@
         <%- partial('_partial/gitalk') %>
     <% } %>
 
+    <% if (theme.twikoo && theme.twikoo.enable) { %>
+        <%- partial('_partial/twikoo') %>
+    <% } %>
+
     <% if (theme.gitment.enable) { %>
         <%- partial('_partial/gitment') %>
     <% } %>
